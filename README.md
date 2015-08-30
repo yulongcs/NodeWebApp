@@ -11,7 +11,7 @@ Email：yulongcs@hotmail.com
 
 本地开发和运行1.安装 nodejs 环境和 npm，具体方法请自行参考其官网文档。
 2.在项目根目录依次执行  npm install  和  bower install 安装依赖项，然后执行  grunt  即可启动开发服务器并调用系统浏览器打开 http://localhost:3000。
-  a.npm install  async bcrypt-nodejs body-parser connect-mongo connect-multiparty cookie-parser crypto express express-session grunt grunt-concurrent grunt-contrib-jshint grunt-contrib-less grunt-contrib-uglify grunt-contrib-watch grunt-mocha-test grunt-nodemon jade moment mongoose morgan serve-static underscore --save
+  a.npm install  async bcrypt-nodejs body-parser connect-mongo connect-multiparty cookie-parser crypto express express-session grunt grunt-concurrent grunt-contrib-jshint grunt-contrib-less grunt-contrib-uglify grunt-contrib-watch grunt-mocha-test grunt-nodemon jade moment mongoose@3.8.14 morgan serve-static underscore --save
   b.bower install bootstrap (文件已存在，以可以省略)
   c.启动 MongoDB
   d.grunt 启动 app
