@@ -18,6 +18,8 @@ Email：yulongcs@hotmail.com
   
 3.默认数使用的 MongoDB 服务器地址为  mongodb://localhost/imooc 
 
+4.js-bson: Failed to load c++ bson extension, using pure JS version 错误解决 
+将“node_modules\mongoose\node_modules\mongodb\node_modules\bson\ext\index.js” wen'j文件里面文件里面面 “require('../build/Release/bson');” 修改 “require('bson');”，  再npm install bson
 
 功能模块• 首页电影展示 
 • 电影查看 
